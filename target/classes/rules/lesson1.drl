@@ -1,0 +1,15 @@
+package droolscourse;
+
+import droolscourse.Account;
+
+rule "Your First Account"
+
+	when
+		Account()
+	then
+		System.out.println("The account exists")
+		
+end
+
+
+		
